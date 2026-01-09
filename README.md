@@ -9,24 +9,22 @@ Pervasive and Mobile Computing, 111:102066.
 doi: https://doi.org/10.1016/j.pmcj.2025.102066
 ```
 
-This repository contains the implementation of the Man in the Middle attack on FlySafe using the NS-3 network simulator.
+This repository contains the implementation of FlySafe using the NS-3 network simulator.
 
 ## Environment Configuration
 
 The project has been tested and validated in the following environments:
 
 1.  **Local Environment:**
-    *   Operating System: Ubuntu 20.04
-    *   Simulator: NS-3.34
-    *   Processor: Intel Core i7-10750H (12 cores)
-    *   RAM: 16 GB
+    *   Operating System: macOS Catalina, version 10.15.7
+    *   CPU: 2,9 GHz Intel Core i5 Quad-Core
+    *   RAM: 8 GB 1600 MHz DDR3
 
 2.  **Virtual Machine (VM):**
-    *   VirtualBox Version: 7.2.2 r170484
+    *   VirtualBox Version: 6.1.14 r140239 (Qt5.6.3)
     *   Operating System: Ubuntu 20.04
     *   Simulator: NS-3.34
-    *   Processor: Intel Core i7-14700 (35 cores)
-    *   RAM: 112 GB
+    *   RAM: 4 GB
 
 **Default installation path:** `~/ns-allinone-3.34/`
 
