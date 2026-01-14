@@ -13,7 +13,7 @@ This repository contains the implementation of FlySafe using the NS-3 network si
 
 ## Environment Configuration
 
-The project has been tested and validated in the following environments:
+The project has been implemented and validated in the following environment:
 
 1.  **Local Environment:**
     *   Operating System: macOS Catalina, version 10.15.7
@@ -26,9 +26,12 @@ The project has been tested and validated in the following environments:
     *   Simulator: NS-3.34
     *   RAM: 4 GB
 
-**Default installation path:** `~/ns-allinone-3.34/`
+**NS-3 installation** 
 
-## Installation
+* Install NS-3, version 3.34, according manual instructions
+* Default path: `~/ns-allinone-3.34/`
+
+## FlySafe installation
 
 Follow the steps below to integrate the files from this repository into your NS-3.34 installation.
 
