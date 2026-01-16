@@ -119,3 +119,14 @@ The simulation generates traces and saves them in the following structure:
 
 *   **When running via Script (`./run_flysafe.sh`):**
     The script automatically moves the `result.txt` and all `.pcap` files to the corresponding simulation folder inside `flysafe_traces`. This ensures that logs from all simulations are organized and stored correctly without overwriting each other.
+
+**Metrics calculation**
+
+To compute the metrics applied to evaluate FlySafe proceed as follows:
+
+1.  **Simulations execution:**
+    *   Execute simulates according previous detailed
+      
+1.  **Scripts execution:**
+    *   Copy the files from the `Scripts` folder from this repository to the `ns-3.34/flysafe_traces` folder of your NS-3.
+    *   Execute the scripts in the terminal from inside the `ns-3.34/flysafe_traces` folder of your NS-3.
