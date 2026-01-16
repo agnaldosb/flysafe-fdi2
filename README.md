@@ -49,6 +49,9 @@ Follow the steps below to integrate the files from this repository into your NS-
 3.  **Scratch Folder:**
     *   Copy the file from the `ns-3.34/scratch/` folder from this repository to the `ns-3.34/scratch/` folder of your NS-3.
 
+4.  **Execution script:**
+    *   Copy the file *run_flysafe.sh* from the `ns-3.34/` folder from this repository to the `ns-3.34/` folder of your NS-3
+      
 ## FlySafe execution
 
 There are two main ways to run the simulation: via command line for a single execution or using the automation script for multiple executions.
