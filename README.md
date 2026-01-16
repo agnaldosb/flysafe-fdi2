@@ -105,10 +105,14 @@ The script will run the simulations one after another and organize the output fi
 
 ## Results
 
-The simulation generates results in the following structure:
+The simulation generates traces and saves them in the following structure:
 
 1.  **Output Folder:** A folder named `flysafe_traces` is created inside the `ns-3.34/` directory (if it does not already exist).
-2.  **Simulation Subfolders:** Inside `flysafe_traces`, a specific folder is created for each simulation run to store its results.
+2.  **Simulation Subfolders:** Inside `flysafe_traces`, a specific folder is created for each simulation run to store its traces. The name the subfolder of each simulation is organized as **DATE_HOUR**, where:
+   * **DATE**: date of simulation - ddmmyyyy (day, month, year)
+   * **HOUR**: Simulation starting time - hhmm (hour, minute)
+
+   
 
 **File Location Behavior:**
 
