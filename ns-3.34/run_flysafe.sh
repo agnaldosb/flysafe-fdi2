@@ -1,6 +1,6 @@
 # Change this value to set the number of sequential simulations.
 TOTAL_RUNS=35
-# Modify the parameters inside the quotes to configure the simulation (e.g., nNodes, nMalicious, defense, mitigation).
+# Modify the parameters inside the quotes to configure the simulation (e.g., nNodes, nMalicious).
 SIM_COMMAND="./waf --run \"scratch/flysafe.cc -nNodes=40 -runMode=R -nMalicious=1 -defense=true -mitigation=true\" > result.txt"
 
 TRACES_DIR="flysafe_traces"
