@@ -127,6 +127,10 @@ To compute the metrics applied to evaluate FlySafe proceed as follows:
 1.  **Simulations execution:**
     *   Execute simulates according previous detailed
       
-1.  **Scripts execution:**
+2.  **Scripts execution:**
+    *   Make sure the gnuplot application is installed in your Linux environment.
     *   Copy the files from the `Scripts` folder from this repository to the `ns-3.34/flysafe_traces` folder of your NS-3.
-    *   Execute the scripts in the terminal from inside the `ns-3.34/flysafe_traces` folder of your NS-3.
+    *   Execute the scripts in the terminal from inside the `ns-3.34/flysafe_traces` folder of your NS-3 according to their established name order as follows:
+        *   Bash scripts: `./bash_script_name`
+        *   Gnuplot scripts: `./gnuplot_script_name`
+    *   After all scripts have been executed, a subfolder named 'global_traces' is created inside the `ns-3.34/flysafe_traces` folder of your NS-3. The metric results are located in this subfolder.
